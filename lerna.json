@@ -2,7 +2,8 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.3",
+  "version": "independent",
   "npmClient": "npm",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "lerna": "3.22.1"
 }

@@ -1,6 +1,21 @@
 {
-  "name": "root",
+  "name": "vuepress-theme-reco",
   "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "workspaces": [
+    "packages/vuepress-theme-nine",
+    "packages/@nine-theme/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "vuepress build example",
+    "publish": "lerna publish",
+    "push": "yarn commit && git push"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }
