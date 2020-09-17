@@ -1,0 +1,6 @@
+[submodule "packages/vuepress-theme-nine"]
+	path = packages/vuepress-theme-nine
+	url = https://github.com/nine-theme/vuepress-theme-nine.git
+[submodule "packages/@nine-theme/vuepress-plugin-ga"]
+	path = packages/@nine-theme/vuepress-plugin-ga
+	url = https://github.com/nine-theme/vuepress-plugin-ga.git
