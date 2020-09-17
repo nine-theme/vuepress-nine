@@ -19,3 +19,6 @@
 [submodule "packages/@nine-theme/vuepress-plugin-screenfull"]
 	path = packages/@nine-theme/vuepress-plugin-screenfull
 	url = https://github.com/nine-theme/vuepress-plugin-screenfull.git
+[submodule "packages/@nine-theme/vuepress-plugin-comments"]
+	path = packages/@nine-theme/vuepress-plugin-comments
+	url = https://github.com/nine-theme/vuepress-plugin-comments.git
