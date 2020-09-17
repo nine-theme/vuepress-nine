@@ -13,3 +13,6 @@
 [submodule "packages/@nine-theme/vuepress-plugin-back-to-top"]
 	path = packages/@nine-theme/vuepress-plugin-back-to-top
 	url = https://github.com/nine-theme/vuepress-plugin-back-to-top.git
+[submodule "packages/@nine-theme/vuepress-plugin-pagation"]
+	path = packages/@nine-theme/vuepress-plugin-pagation
+	url = https://github.com/nine-theme/vuepress-plugin-pagation.git
