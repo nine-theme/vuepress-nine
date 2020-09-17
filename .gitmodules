@@ -16,3 +16,6 @@
 [submodule "packages/@nine-theme/vuepress-plugin-pagation"]
 	path = packages/@nine-theme/vuepress-plugin-pagation
 	url = https://github.com/nine-theme/vuepress-plugin-pagation.git
+[submodule "packages/@nine-theme/vuepress-plugin-screenfull"]
+	path = packages/@nine-theme/vuepress-plugin-screenfull
+	url = https://github.com/nine-theme/vuepress-plugin-screenfull.git
