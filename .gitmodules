@@ -4,3 +4,6 @@
 [submodule "packages/@nine-theme/vuepress-plugin-ga"]
 	path = packages/@nine-theme/vuepress-plugin-ga
 	url = https://github.com/nine-theme/vuepress-plugin-ga.git
+[submodule "packages/@nine-theme/vuepress-plugin-fontawesome"]
+	path = packages/@nine-theme/vuepress-plugin-fontawesome
+	url = https://github.com/nine-theme/vuepress-plugin-fontawesome.git
