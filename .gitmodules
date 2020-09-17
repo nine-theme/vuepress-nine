@@ -7,3 +7,6 @@
 [submodule "packages/@nine-theme/vuepress-plugin-fontawesome"]
 	path = packages/@nine-theme/vuepress-plugin-fontawesome
 	url = https://github.com/nine-theme/vuepress-plugin-fontawesome.git
+[submodule "packages/@nine-theme/vuepress-plugin-loading-page"]
+	path = packages/@nine-theme/vuepress-plugin-loading-page
+	url = https://github.com/nine-theme/vuepress-plugin-loading-page.git
