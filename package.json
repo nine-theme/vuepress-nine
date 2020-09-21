@@ -3,18 +3,14 @@
   "private": true,
   "license": "MIT",
   "main": "index.js",
-  "workspaces": [
-    "packages/vuepress-theme-nine",
-    "packages/@nine-theme/*"
-  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --ignore-prepublish",
     "build": "vuepress build doc",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 2",
     "commit": "git add . && git-cz",
     "dev": "vuepress dev --debug --no-clear-screen --temp temp doc",
-    "eslint-ext": "eslint --ext .js,.vue ./",
-    "eslint-fix": "eslint --fix --ext .js,.vue ./",
+    "eslint:ext": "eslint --ext .js,.vue ./",
+    "eslint:fix": "eslint --fix --ext .js,.vue ./",
     "prepublish": "lerna publish --dist-tag next",
     "publish": "lerna publish",
     "push": "yarn commit && git push",
@@ -22,16 +18,16 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
-      "eslint --fix --ext .js,.vue ./"
+      "eslint --fix --ext .js,.vue ./",
+      "git add"
     ],
     "package.json": [
-      "sort-package-json"
+      "sort-package-json",
+      "git add"
     ]
   },
   "config": {
@@ -40,14 +36,18 @@
     }
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/eslint-parser": "^7.11.3",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "babel-eslint": "^10.1.0",
     "commitizen": "^4.2.1",
     "conventional-changelog-cli": "^2.1.0",
     "cz-customizable": "^6.3.0",
     "eslint": "^7.9.0",
-    "eslint-plugin-vue": "^7.0.0-beta.1",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
     "husky": "^4.3.0",
     "lerna": "^3.22.1",
     "lint-staged": "^10.4.0",

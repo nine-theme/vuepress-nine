@@ -1,6 +1,0 @@
-51 error Error: Command failed: git add -- packages/@nine-theme/vuepress-plugin-loading-page/package.json packages/@nine-theme/vuepress-plugin-back-to-top/package.json packages/@nine-theme/vuepress-plugin-ga/package.json packages/@nine-theme/vuepress-plugin-screenfull/package.json packages/@nine-theme/vuepress-plugin-comments/package.json packages/@nine-theme/vuepress-plugin-pagation/package.json packages/@nine-theme/vuepress-plugin-fontawesome/package.json packages/@nine-theme/vuepress-plugin-fontawesome/package-lock.json packages/vuepress-theme-nine/package.json packages/vuepress-theme-nine/package-lock.json
-51 error fatal: Pathspec 'packages/@nine-theme/vuepress-plugin-back-to-top/package.json' is in submodule 'packages/@nine-theme/vuepress-plugin-back-to-top'
-51 error
-51 error     at makeError (/Users/nine/docs/nine-theme/node_modules/execa/index.js:174:9)
-51 error     at /Users/nine/docs/nine-theme/node_modules/execa/index.js:278:16
-51 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)

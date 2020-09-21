@@ -1,9 +1,9 @@
 {
   "packages": [
-    "packages/*"
+    "packages/*",
+    "packages/@nine-theme/*"
   ],
   "version": "independent",
-  "npmClient": "yarn",
-  "useWorkspaces": true,
+  "npmClient": "npm",
   "lerna": "3.22.1"
 }
