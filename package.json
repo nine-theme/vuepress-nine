@@ -11,7 +11,7 @@
     "dev": "vuepress dev --debug --no-clear-screen --temp temp doc",
     "eslint:ext": "eslint --ext .js,.vue ./",
     "eslint:fix": "eslint --fix --ext .js,.vue ./",
-    "prepublish": "lerna publish --dist-tag next",
+    "prepublish": "lerna publish --dist-tag next --skip-git",
     "publish": "lerna publish --skip-git",
     "push": "npm run commit && git push"
   },
