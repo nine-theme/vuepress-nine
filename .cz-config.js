@@ -49,7 +49,7 @@ module.exports = {
     },
     {
       value: 'module',
-      name: '🔲  chore:    其他'
+      name: '🔲  module:    其他'
     }
   ],
 
