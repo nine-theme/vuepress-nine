@@ -46,6 +46,10 @@ module.exports = {
     {
       value: 'chore',
       name: '🛑  chore:    其他'
+    },
+    {
+      value: 'module',
+      name: '🔲  chore:    其他'
     }
   ],
 
