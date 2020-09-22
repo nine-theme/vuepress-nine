@@ -23,12 +23,10 @@
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
-      "eslint --fix --ext .js,.vue ./",
-      "git add"
+      "eslint --fix --ext .js,.vue ./"
     ],
     "package.json": [
-      "sort-package-json",
-      "git add"
+      "sort-package-json"
     ]
   },
   "config": {
