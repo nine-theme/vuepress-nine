@@ -4,6 +4,7 @@
     "packages/@nine-theme/*"
   ],
   "version": "independent",
-  "npmClient": "npm",
-  "lerna": "3.22.1"
+  "lerna": "3.22.1",
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }
